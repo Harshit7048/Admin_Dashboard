@@ -1,0 +1,41 @@
+.sidebar-in {
+    background-color: var(--primary-bg);
+    height: 100%;
+    box-shadow: 1px 1px 18px rgb(231, 222, 222);
+    padding-left: 1rem
+}
+
+.logo {
+    font-size: 4rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0rem;
+    font-family: "Great Vibes", cursive;
+    font-weight: 800;
+    color: rgb(107, 144, 244);
+
+}
+
+.sidebar-in h2 {
+    font-size: 1rem;
+    color: rgb(63, 197, 197);
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 0px;
+}
+
+a {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    width: 80%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+    font-family: "Nunito", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+a:hover {
+    background: rgb(238, 238, 252);
+}
