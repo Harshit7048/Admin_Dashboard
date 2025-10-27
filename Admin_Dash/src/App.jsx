@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
 import Employees from './Pages/Employees'
 import SideBar from './Components/SideBar/SideBar'
+import Header from './Components/Header/Header'
 
 
 
@@ -24,7 +25,7 @@ function App() {
           </div>
           <div className='right-cont'>
             <div className="header">
-              header
+              <Header />
             </div>
 
             <div className="content">
